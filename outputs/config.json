@@ -1,0 +1,16 @@
+{
+    "output_dir": "outputs",
+    "seed": 42,
+    "n_features": 64,
+    "model": "TabularTransformer",
+    "d_model": 128,
+    "nhead": 8,
+    "num_layers": 4,
+    "dim_feedforward": 256,
+    "dropout": 0.1,
+    "pooling": "cls",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "num_epochs": 20,
+    "patience": 5
+}
